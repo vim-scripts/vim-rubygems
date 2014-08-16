@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5004
+
+The vim-rubygems plugin provides ability to work with rubygems.org inside Vim.
+Currenty the following features are provided by the plugin:
+- general information for selected gem (version, authors, summary, built date, downloads, description)
+- versions list for selected gem (version, built date)
+- last version for selected gem (version, built date)
+- append a version for a gem under cursor
+
+More information on development page:
+https://github.com/alexbel/vim-rubygems
