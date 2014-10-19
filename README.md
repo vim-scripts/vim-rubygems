@@ -8,6 +8,7 @@ Currenty the following features are provided by the plugin:
 * versions list for selected gem (version, built date)
 * last version for selected gem (version, built date)
 * append a version for a gem under cursor
+* active gems search
 
 ## Requirements
 
@@ -34,10 +35,10 @@ The plugin provides the following commands:
 * :RubygemsVersions
 * :RubygemsRecentVersion
 * :RubygemsAppendVersion
+* :RubygemsSearch gem_name
+* :RubygemsGemfileCheck
 
-It parses current line under the cursor, extracts the name of the gem and shows information for it.
-
-## Set mappings (optional):
+## Mappings example (optional):
 ```
 nnoremap <leader><leader>g :RubygemsRecentVersion<cr>
 ```
@@ -46,4 +47,6 @@ nnoremap <leader><leader>g :RubygemsRecentVersion<cr>
 * ✔ Syntax highlighting
 * ✔ Show a list of versions for a gem
 * ✔ Append gem version for a gem
-* Check Gemfile for outdated gems
+* ✔ Active gems search
+* ✔ Check Gemfile for outdated gems
+* Tests
